@@ -1,0 +1,29 @@
+
+.breadcrumb-container{
+    display: flex;
+    margin-top: 30px;
+    height: 30px;
+}
+
+.breadcrumb-holder{
+    background-color: white;
+    width: 80%;
+    color: rgb(63, 63, 63);
+    padding-left: 15px;
+}
+
+.breadcrumb-holder p{
+    margin-top: 7px;
+    color: #706f8e;
+}
+
+.user-role{
+    width: 20%;
+    background-color: #676767;
+    padding-left: 15px;
+}
+
+.user-role p{
+    color: #d9d3cb;
+    margin-top: 7px;
+}
