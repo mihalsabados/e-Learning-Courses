@@ -11,5 +11,817 @@ exports[`ContentArea component snapshot 1`] = `
       e-Learning Courses
     </h2>
   </div>
+  <div
+    className="course-group"
+  >
+    <div
+      className="course-img"
+    >
+      <img
+        alt={
+          Object {
+            "category": "Money Laundering and Fraud Prevention",
+            "courses": Array [
+              Object {
+                "duration": 30,
+                "endDate": null,
+                "progress": 3,
+                "title": "Intensification of money laundering prevention - private customer advice",
+              },
+              Object {
+                "duration": 44,
+                "endDate": null,
+                "progress": 0,
+                "title": "Basic Training - Prevention of Money Laundering and Terrorist Financing (V3.0)",
+              },
+              Object {
+                "duration": 22,
+                "endDate": null,
+                "progress": 0,
+                "title": "Advanced Training - Prevention of Money Laundering and Terrorist Financing (V3.0)",
+              },
+            ],
+            "imageSrc": "resources/fraud_prevention.png",
+          }
+        }
+        src="resources/fraud_prevention.png"
+      />
+    </div>
+    <div
+      className="course-list"
+    >
+      <div
+        className="course"
+      >
+        <div
+          className="course-text"
+        >
+          <p>
+            Intensification of money laundering prevention - private customer advice
+          </p>
+        </div>
+        <div
+          className="course-progress"
+        >
+          <div
+            className="course-duration"
+          >
+            <p>
+              30
+              min
+            </p>
+            <p>
+              To be done by:
+            </p>
+          </div>
+          <div
+            className="course-indicators"
+          >
+            <div
+              className="course-circles"
+            >
+              <div
+                className="circle full"
+              />
+              <div
+                className="circle full"
+              />
+              <div
+                className="circle full"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+            </div>
+            <p
+              className="done-by"
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="course"
+      >
+        <div
+          className="course-text"
+        >
+          <p>
+            Basic Training - Prevention of Money Laundering and Terrorist Financing (V3.0)
+          </p>
+        </div>
+        <div
+          className="course-progress"
+        >
+          <div
+            className="course-duration"
+          >
+            <p>
+              44
+              min
+            </p>
+            <p>
+              To be done by:
+            </p>
+          </div>
+          <div
+            className="course-indicators"
+          >
+            <div
+              className="course-circles"
+            >
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+            </div>
+            <p
+              className="done-by"
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="course"
+      >
+        <div
+          className="course-text"
+        >
+          <p>
+            Advanced Training - Prevention of Money Laundering and Terrorist Financing (V3.0)
+          </p>
+        </div>
+        <div
+          className="course-progress"
+        >
+          <div
+            className="course-duration"
+          >
+            <p>
+              22
+              min
+            </p>
+            <p>
+              To be done by:
+            </p>
+          </div>
+          <div
+            className="course-indicators"
+          >
+            <div
+              className="course-circles"
+            >
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+            </div>
+            <p
+              className="done-by"
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="course-group"
+  >
+    <div
+      className="course-img"
+    >
+      <img
+        alt={
+          Object {
+            "category": "IT security and information security",
+            "courses": Array [
+              Object {
+                "duration": 40,
+                "endDate": 2024-03-13T23:00:00.000Z,
+                "progress": 0,
+                "title": "IT security basics (V1.01.3)",
+              },
+              Object {
+                "duration": 60,
+                "endDate": null,
+                "progress": 3,
+                "title": "Basic Training IT security and information security (V1.0)",
+              },
+              Object {
+                "duration": 29,
+                "endDate": null,
+                "progress": 0,
+                "title": "Advanced Training IT Security and Information Security (V1.1)",
+              },
+            ],
+            "imageSrc": "resources/it_security.png",
+          }
+        }
+        src="resources/it_security.png"
+      />
+    </div>
+    <div
+      className="course-list"
+    >
+      <div
+        className="course"
+      >
+        <div
+          className="course-text"
+        >
+          <p>
+            IT security basics (V1.01.3)
+          </p>
+        </div>
+        <div
+          className="course-progress"
+        >
+          <div
+            className="course-duration"
+          >
+            <p>
+              40
+              min
+            </p>
+            <p>
+              To be done by:
+            </p>
+          </div>
+          <div
+            className="course-indicators"
+          >
+            <div
+              className="course-circles"
+            >
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+            </div>
+            <p
+              className="done-by"
+            >
+              March 14, 2024
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="course"
+      >
+        <div
+          className="course-text"
+        >
+          <p>
+            Basic Training IT security and information security (V1.0)
+          </p>
+        </div>
+        <div
+          className="course-progress"
+        >
+          <div
+            className="course-duration"
+          >
+            <p>
+              60
+              min
+            </p>
+            <p>
+              To be done by:
+            </p>
+          </div>
+          <div
+            className="course-indicators"
+          >
+            <div
+              className="course-circles"
+            >
+              <div
+                className="circle full"
+              />
+              <div
+                className="circle full"
+              />
+              <div
+                className="circle full"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+            </div>
+            <p
+              className="done-by"
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="course"
+      >
+        <div
+          className="course-text"
+        >
+          <p>
+            Advanced Training IT Security and Information Security (V1.1)
+          </p>
+        </div>
+        <div
+          className="course-progress"
+        >
+          <div
+            className="course-duration"
+          >
+            <p>
+              29
+              min
+            </p>
+            <p>
+              To be done by:
+            </p>
+          </div>
+          <div
+            className="course-indicators"
+          >
+            <div
+              className="course-circles"
+            >
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+            </div>
+            <p
+              className="done-by"
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="course-group"
+  >
+    <div
+      className="course-img"
+    >
+      <img
+        alt={
+          Object {
+            "category": "Data Protection",
+            "courses": Array [
+              Object {
+                "duration": 0,
+                "endDate": null,
+                "progress": 0,
+                "title": "Basic training data protection (V2.0)",
+              },
+              Object {
+                "duration": 40,
+                "endDate": null,
+                "progress": 0,
+                "title": "Privacy Basics (V1.00.2)",
+              },
+              Object {
+                "duration": 51,
+                "endDate": null,
+                "progress": 0,
+                "title": "In-depth training on data protection (V1.0)",
+              },
+              Object {
+                "duration": 40,
+                "endDate": null,
+                "progress": 3,
+                "title": "Privacy Basics 1.0",
+              },
+            ],
+            "imageSrc": "resources/data_protection.png",
+          }
+        }
+        src="resources/data_protection.png"
+      />
+    </div>
+    <div
+      className="course-list"
+    >
+      <div
+        className="course"
+      >
+        <div
+          className="course-text"
+        >
+          <p>
+            Basic training data protection (V2.0)
+          </p>
+        </div>
+        <div
+          className="course-progress"
+        >
+          <div
+            className="course-duration"
+          >
+            <p>
+              0
+              min
+            </p>
+            <p>
+              To be done by:
+            </p>
+          </div>
+          <div
+            className="course-indicators"
+          >
+            <div
+              className="course-circles"
+            >
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+            </div>
+            <p
+              className="done-by"
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="course"
+      >
+        <div
+          className="course-text"
+        >
+          <p>
+            Privacy Basics (V1.00.2)
+          </p>
+        </div>
+        <div
+          className="course-progress"
+        >
+          <div
+            className="course-duration"
+          >
+            <p>
+              40
+              min
+            </p>
+            <p>
+              To be done by:
+            </p>
+          </div>
+          <div
+            className="course-indicators"
+          >
+            <div
+              className="course-circles"
+            >
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+            </div>
+            <p
+              className="done-by"
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="course"
+      >
+        <div
+          className="course-text"
+        >
+          <p>
+            In-depth training on data protection (V1.0)
+          </p>
+        </div>
+        <div
+          className="course-progress"
+        >
+          <div
+            className="course-duration"
+          >
+            <p>
+              51
+              min
+            </p>
+            <p>
+              To be done by:
+            </p>
+          </div>
+          <div
+            className="course-indicators"
+          >
+            <div
+              className="course-circles"
+            >
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+            </div>
+            <p
+              className="done-by"
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="course"
+      >
+        <div
+          className="course-text"
+        >
+          <p>
+            Privacy Basics 1.0
+          </p>
+        </div>
+        <div
+          className="course-progress"
+        >
+          <div
+            className="course-duration"
+          >
+            <p>
+              40
+              min
+            </p>
+            <p>
+              To be done by:
+            </p>
+          </div>
+          <div
+            className="course-indicators"
+          >
+            <div
+              className="course-circles"
+            >
+              <div
+                className="circle full"
+              />
+              <div
+                className="circle full"
+              />
+              <div
+                className="circle full"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+            </div>
+            <p
+              className="done-by"
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="course-group"
+  >
+    <div
+      className="course-img"
+    >
+      <img
+        alt={
+          Object {
+            "category": "WpHG-Compliance",
+            "courses": Array [
+              Object {
+                "duration": 30,
+                "endDate": null,
+                "progress": 3,
+                "title": "WpHG compliance basics (V1.00.3)",
+              },
+              Object {
+                "duration": 44,
+                "endDate": null,
+                "progress": 0,
+                "title": "In-depth WpHG - sales representative (V1.00.2)",
+              },
+            ],
+            "imageSrc": "resources/wphg.png",
+          }
+        }
+        src="resources/wphg.png"
+      />
+    </div>
+    <div
+      className="course-list"
+    >
+      <div
+        className="course"
+      >
+        <div
+          className="course-text"
+        >
+          <p>
+            WpHG compliance basics (V1.00.3)
+          </p>
+        </div>
+        <div
+          className="course-progress"
+        >
+          <div
+            className="course-duration"
+          >
+            <p>
+              30
+              min
+            </p>
+            <p>
+              To be done by:
+            </p>
+          </div>
+          <div
+            className="course-indicators"
+          >
+            <div
+              className="course-circles"
+            >
+              <div
+                className="circle full"
+              />
+              <div
+                className="circle full"
+              />
+              <div
+                className="circle full"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+            </div>
+            <p
+              className="done-by"
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="course"
+      >
+        <div
+          className="course-text"
+        >
+          <p>
+            In-depth WpHG - sales representative (V1.00.2)
+          </p>
+        </div>
+        <div
+          className="course-progress"
+        >
+          <div
+            className="course-duration"
+          >
+            <p>
+              44
+              min
+            </p>
+            <p>
+              To be done by:
+            </p>
+          </div>
+          <div
+            className="course-indicators"
+          >
+            <div
+              className="course-circles"
+            >
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+              <div
+                className="circle"
+              />
+            </div>
+            <p
+              className="done-by"
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;

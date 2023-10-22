@@ -1,11 +1,12 @@
-import OverviewPage from './Pages/OverviewPage/OverviewPage';
+import React from "react";
+import OverviewPage from "./Pages/OverviewPage/OverviewPage";
 
 function App() {
-  return (
-    <div className="App">
-      <OverviewPage></OverviewPage>
-    </div>
-  );
+	return (
+		<div className="App">
+			<OverviewPage></OverviewPage>
+		</div>
+	);
 }
 
 export default App;

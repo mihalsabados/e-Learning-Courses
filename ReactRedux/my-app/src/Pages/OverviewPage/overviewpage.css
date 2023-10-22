@@ -1,8 +1,14 @@
-.content{
-    display: flex;
+.content {
+	display: flex;
 }
 
-.container{
-    width: 75%;
-    margin: 0 auto;
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+	.content {
+		display: block;
+	}
 }
