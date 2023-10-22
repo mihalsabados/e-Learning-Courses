@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentArea component snapshot 1`] = `
+<div
+  className="courses-area"
+>
+  <div
+    className="courses-header"
+  >
+    <h2>
+      e-Learning Courses
+    </h2>
+  </div>
+</div>
+`;

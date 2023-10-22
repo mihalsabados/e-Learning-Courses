@@ -1,4 +1,5 @@
-import "./contentarea.css"
+import React  from 'react';
+import "./ContentArea.css"
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 
@@ -8,7 +9,7 @@ export default function ContentArea() {
 
     useEffect(() => {
         setCourseGroups(groupBy(courses));
-    }, [courses])
+    }, [])
 
 
     const groupBy = (courses) =>{

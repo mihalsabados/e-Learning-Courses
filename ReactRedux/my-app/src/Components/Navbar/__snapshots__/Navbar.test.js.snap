@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb component snapshot 1`] = `
+<div
+  className="navbar"
+>
+  <div
+    className="logo-div"
+  >
+    <img
+      alt="logo"
+      src="resources/logo.png"
+    />
+  </div>
+</div>
+`;
+
+exports[`Navbar component snapshot 1`] = `
+<div
+  className="navbar"
+>
+  <div
+    className="logo-div"
+  >
+    <img
+      alt="logo"
+      src="resources/logo.png"
+    />
+  </div>
+</div>
+`;
