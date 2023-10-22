@@ -9,15 +9,13 @@ const Header = ({ pathname }) => {
 
   return (
     <Segment basic className="header-wrapper" role="banner">
-      <Container>
-        <div className="header">
-          <div className="logo-nav-wrapper">
-            <div className="logo">
-              <Logo />
-            </div>
+      <div className="header">
+        <div className="logo-nav-wrapper">
+          <div className="logo">
+            <Logo />
           </div>
         </div>
-      </Container>
+      </div>
     </Segment>
   );
 };

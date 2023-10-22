@@ -36,14 +36,12 @@ const BreadcrumbsComponent = ({ pathname }) => {
       secondary
       vertical
     >
-      <Container>
-        <div className="breadcrumb-holder">
-          <p>Home Page &nbsp; {'>'} &nbsp; e-Learning Courses</p>
-        </div>
-        <div className="user-role">
-          <p>admin</p>
-        </div>
-      </Container>
+      <div className="breadcrumb-holder">
+        <p>Home Page &nbsp; {'>'} &nbsp; e-Learning Courses</p>
+      </div>
+      <div className="user-role">
+        <p>admin</p>
+      </div>
     </Segment>
   );
 };

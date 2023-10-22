@@ -1,26 +1,11 @@
+import React from 'react';
 import { useSelector } from 'react-redux';
-import { useEffect, useState } from 'react';
 
-function ContentArea() {
-  const courses = useSelector((state) => state.courses);
-  const [courseGroups, setCourseGroups] = useState({});
+export default function ContentArea() {
+  // Load courseCategories from redux store
+  const courseCategories = useSelector((state) => state.courses);
 
-  useEffect(() => {
-    console.log(courses);
-    setCourseGroups(groupBy(courses.items));
-  }, [courses]);
-
-  const groupBy = (courses) => {
-    return courses.reduce((result, item) => {
-      const catKey = item['category'];
-      if (!result[catKey]) {
-        result[catKey] = [];
-      }
-      result[catKey].push(item);
-      return result;
-    }, {});
-  };
-
+  //Display date in 'MMMM dd, yyyy' format
   const displayDate = (date) => {
     let year = date.getFullYear();
     let month = date.toLocaleString('default', { month: 'long' });
@@ -28,14 +13,24 @@ function ContentArea() {
     return month + ' ' + day + ', ' + year;
   };
 
+  // create array for circles className depending on courseProgress, all divs have 'circle' className and full circles have added 'full'
+  const getCircleClassNames = (courseProgress) => {
+    return ['circle', 'circle', 'circle', 'circle', 'circle'].map((val, i) => {
+      let elem = val;
+      if (courseProgress >= i + 1) elem += ' full';
+      return elem;
+    });
+  };
+
   return (
     <div className="courses-area">
       <div className="courses-header">
         <h2>e-Learning Courses</h2>
       </div>
-      {courseGroups &&
-        Object.keys(courseGroups).map((category, id) => {
-          const imageSrc = courseGroups[category][0]['imageSrc'];
+      {/* Map through course categories */}
+      {courseCategories.items &&
+        courseCategories.items.map((category, id) => {
+          const imageSrc = category.imageSrc;
 
           return (
             <div className="course-group" key={id}>
@@ -43,18 +38,9 @@ function ContentArea() {
                 <img src={imageSrc} alt={category} />
               </div>
               <div className="course-list">
-                {courseGroups[category].map((course, cId) => {
-                  const circleArray = [
-                    'circle',
-                    'circle',
-                    'circle',
-                    'circle',
-                    'circle',
-                  ].map((val, i) => {
-                    let elem = val;
-                    if (course.progress >= i + 1) elem += ' full';
-                    return elem;
-                  });
+                {/* Map through courses in categories */}
+                {category.courses.map((course, cId) => {
+                  const circleArray = getCircleClassNames(course.progress);
 
                   return (
                     <div className="course" key={cId}>
@@ -68,6 +54,7 @@ function ContentArea() {
                         </div>
                         <div className="course-indicators">
                           <div className="course-circles">
+                            {/* Map throught array for circles className */}
                             {circleArray.map((circleClass, cirId) => (
                               <div className={circleClass} key={cirId}></div>
                             ))}
@@ -87,5 +74,3 @@ function ContentArea() {
     </div>
   );
 }
-
-export default ContentArea;
