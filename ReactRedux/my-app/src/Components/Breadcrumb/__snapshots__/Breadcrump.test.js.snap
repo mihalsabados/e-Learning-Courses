@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb component snapshot 1`] = `
+<div
+  className="breadcrumb-container"
+>
+  <div
+    className="breadcrumb-holder"
+  >
+    <p>
+      Home Page   
+      &gt;
+         e-Learning Courses
+    </p>
+  </div>
+  <div
+    className="user-role"
+  >
+    <p>
+      admin
+    </p>
+  </div>
+</div>
+`;

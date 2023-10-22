@@ -1,0 +1,21 @@
+.navbar {
+	height: 80px;
+	width: 100%;
+	background-color: #0164b2;
+	display: flex;
+	justify-content: right;
+}
+
+.logo-div {
+	margin-right: 50px;
+}
+
+.logo-div img {
+	height: 80px;
+}
+
+@media only screen and (max-width: 800px) {
+	.navbar {
+		justify-content: center;
+	}
+}
